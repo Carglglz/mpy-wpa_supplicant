@@ -1,0 +1,8 @@
+{
+  "urls": [
+	  ["wpa_supplicant.py", "github:carglglz/mpy-wpa_supplicant/wpa_supplicant.py"],
+  ],
+  "deps": [
+  ],
+  "version": "0.1"
+}
