@@ -11,7 +11,7 @@ except Exception:
     NAME = f"{sys.platform}-{hexlify(unique_id())}"
 
 
-def setup_network(timeout=10, notify=True):
+def setup_network(timeout=10, hostname=NAME, notify=True):
     n = 0
     wlan = network.WLAN(network.STA_IF)
     wlan.active(True)
@@ -20,7 +20,7 @@ def setup_network(timeout=10, notify=True):
     # Sort by dBm
     scan_tuples.sort(key=lambda x: x[1], reverse=True)
     # Set device hostname
-    wlan.config(dhcp_hostname=NAME)
+    wlan.config(dhcp_hostname=hostname)
     try:
         with open("wpa_supplicant.config", "r") as wpa_conf:
             wifi_config = json.load(wpa_conf)
