@@ -9,7 +9,7 @@ Install using `mip` e.g. in device REPL
 
 ```
 >>> import mip
->>> mip.install("github:org/Carglglz/mpy-wpa_supplicant.py")
+>>> mip.install("github:org/Carglglz/mpy-wpa_supplicant/wpa_supplicant.py")
 ```
 
 Add a `wpa_supplicant.config` file with `SSID:PASSWORD` of known Wifi APs, e.g.
@@ -43,7 +43,7 @@ else:
 
 ```
 
-Options to pass to `setup_network`:
+Options for `setup_network(timeout=10, hostname=NAME, notify=True)`:
 
 - `timeout`: In seconds to wait for connection [default: `10`]
 
