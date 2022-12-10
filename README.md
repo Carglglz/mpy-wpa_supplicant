@@ -9,7 +9,7 @@ Install using `mip` e.g. in device REPL
 
 ```
 >>> import mip
->>> mip.install("github:org/Carglglz/mpy-wpa_supplicant/wpa_supplicant.py")
+>>> mip.install("github:Carglglz/mpy-wpa_supplicant")
 ```
 
 Add a `wpa_supplicant.config` file with `SSID:PASSWORD` of known Wifi APs, e.g.
