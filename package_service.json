@@ -1,0 +1,8 @@
+{
+  "urls": [
+	  ["aioservices/services/wpa_supplicant.mpy", "github:carglglz/mpy-wpa_supplicant/service/wpa_supplicant_service.mpy"],
+  ],
+  "deps": [
+  ],
+  "version": "1.0"
+}

@@ -43,4 +43,4 @@ def setup_network(timeout=10, hostname=NAME, notify=True):
             print(f"Connected to {_ssid}")
             print("Network Config:", wlan.ifconfig())
 
-        return True
+        return _ssid
