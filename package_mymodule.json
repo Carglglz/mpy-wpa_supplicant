@@ -1,6 +1,6 @@
 {
   "urls": [
-	  ["mymodule.py", "github:carglglz/mpy-wpa_supplicant/mymodule.py"],
+	  ["lib/mymodule.py", "github:carglglz/mpy-wpa_supplicant/mymodule.py"],
 
 	  ["tests/test_mymodule.py", "github:carglglz/mpy-wpa_supplicant/tests/mymodule/test_mymodule.py"],
 
